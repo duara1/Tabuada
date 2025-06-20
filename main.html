@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: aliceblue;">Tabuada</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Número: <input type="number" id="num"></p>
+            <input type="button" value="Gerar Tabuada" onclick="Calcular()">
+        </div>
+
+        <div id="container">
+            <p id="resu" class="titulos">Digite um número acima</p>
+
+            <div class="tabuada" id="multiplicacao"></div>
+
+            <div class="tabuada" id="soma"></div>
+
+            <div class="tabuada" id="subtracao"></div>
+        </div>
+    </section>
+</body>
+
+<script src="script.js"></script>
+</html>
